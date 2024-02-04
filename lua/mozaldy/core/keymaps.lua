@@ -23,7 +23,7 @@ keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) 
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
 
 -- toggle terminal
-keymap.set("n", "<C-t>", "<cmd>ToggleTerm<CR>", { desc = "Enter terminal" })
+keymap.set({ "n", "t" }, "<C-t>", "<cmd>ToggleTerm<CR>", { desc = "Enter terminal" })
 -- Terminal Mappings
 keymap.set("t", "<esc><esc>", "<c-\\><c-n>", { desc = "Enter Normal Mode" })
 keymap.set("t", "<C-h>", "<cmd>wincmd h<cr>", { desc = "Go to left window" })
