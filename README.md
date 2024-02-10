@@ -31,7 +31,7 @@ Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
 ```
 - Clone the config
 ```sh
-git clone https://github.com/LazyVim/starter $env:LOCALAPPDATA\nvim
+git clone https://github.com/mozaldy/nvim $env:LOCALAPPDATA\nvim
 ```
 - Start Neovim!
 ```sh
