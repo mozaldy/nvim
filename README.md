@@ -1,5 +1,13 @@
 # 💤 LazyVim
-
+## Prerequisites
+- Neovim >= 0.9.0 (needs to be built with LuaJIT)
+- Git >= 2.19.0 (for partial clones support)
+- a C compiler for nvim-treesitter.
+- for telescope.nvim (optional)
+  - live grep: ripgrep
+  - find files: fd
+- python
+- nodejs
 ## Installation
 ### Linux
 - Make a backup of your current Neovim files:
